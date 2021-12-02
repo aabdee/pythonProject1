@@ -9,14 +9,11 @@ def main():
     edat = int(input("Introdueix l'edat:"))
     contacte = bool(input("Contacte? "))
 
-
-
     print("********************************")
 
     print("El teu codi és:", cognom1[:2], end="")
     print(cognom2[:2], end="")
     print(nom[:2], end="")
-
 
 if __name__ == '__main__':
     main()
