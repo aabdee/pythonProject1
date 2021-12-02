@@ -5,12 +5,18 @@ def main():
     nom = input("Introdueix el teu nom: ")
     cognom1 = input("Introdueix el primer cognom: ")
     cognom2 = input("Introdueix el segon cognom: ")
+    telefon = int(input("Introdueix el telèfon:"))
+    edat = int(input("Introdueix l'edat:"))
+    contacte = bool(input("Contacte? "))
+
+
 
     print("********************************")
 
     print("El teu codi és:", cognom1[:2], end="")
     print(cognom2[:2], end="")
     print(nom[:2], end="")
+
 
 if __name__ == '__main__':
     main()
