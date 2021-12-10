@@ -30,9 +30,22 @@ if __name__ == '__main__':
 
 def main():
 
-    op = [1.25, -9.45, ]
+    text = "Practica els problemes de list comprehensions per a ser més Pythonic!"
 
+    espai = [i for i in text if i in ' ']
 
+    print(len(espai))
 
 if __name__ == '__main__':
     main()
+
+
+def main():
+    text = "Practica els problemes de list comprehensions per a ser més Pythonic!"
+
+    consonants = [i for i in text.split() if len(i) < 6]
+    print(consonants)
+
+if __name__ == '__main__':
+    main()
+
